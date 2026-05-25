@@ -80,6 +80,28 @@ PART_10_geographic_maps.py
 |
 
 
+project/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── outputs/
+│   ├── figures/
+│   └── maps/
+│
+├── scripts/
+│   ├── 01_api_collection.py
+│   ├── 02_weather_cleaning.py
+│   ├── 03_demographic_mortality_cleaning.py
+│   ├── 04_build_analysis_dataset.py
+│   ├── 05_fixed_effects_analysis.py
+│   └── 06_visualizations.py
+│
+├── README.md
+└── requirements.txt
+
+
 ## Data Availability
 
 This repository contains a curated version of the thesis analysis workflow.
