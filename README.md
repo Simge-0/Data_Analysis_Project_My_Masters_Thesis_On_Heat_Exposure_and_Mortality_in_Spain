@@ -93,7 +93,8 @@ README.md
 ## Data Availability
 
 This repository contains a curated version of the thesis analysis workflow.
-Only a sample cleaned dataset (`cleaned_dataset_sample.csv`) covering the 2017–2019 analysis period is included for demonstration purposes.
+
+Only a sample cleaned dataset (`cleaned_dataset_sample.csv`) restricted to 10.000 rows is included for demonstration purposes.
 
 Due to dataset size and processing complexity, not all raw, intermediate, robustness-check, demographic-analysis, and geospatial files used in the full thesis are included in this repository. 
 
