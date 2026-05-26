@@ -38,7 +38,7 @@ Python, pandas, numpy, statsmodels, matplotlib, geopandas
 - Large-scale data integration from administrative sources
 - API-based data collection and batch processing (~5,000+ files)
 - Data cleaning and transformation at scale
-- Spatial visualization and mapping (GIS)
+- Spatial visualization and mapping
 
 ## Key Variables
 
@@ -56,7 +56,7 @@ The final dataset includes constructed variables such as:
 
 - Main fixed effects regression results (table)
 - Age and sex subgroup regression results
-- Spatial distribution of weather stations and mortality rates
+- Spatial distribution of weather stations and mortality rates (map)
 
 ## Repository Structure
 
@@ -93,7 +93,7 @@ README.md
 ## Data Availability
 
 This repository contains a curated version of the thesis analysis workflow.
-Only a sample cleaned dataset (`cleaned_dataset_sample.csv`) covering the 2017–2019 analysis period is included for demonstration purposes and serves as the basis for the main regression analysis.
+Only a sample cleaned dataset (`cleaned_dataset_sample.csv`) covering the 2017–2019 analysis period is included for demonstration purposes.
 
 Due to dataset size and processing complexity, not all raw, intermediate, robustness-check, demographic-analysis, and geospatial files used in the full thesis are included in this repository. 
 
