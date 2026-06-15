@@ -43,15 +43,22 @@ Python, pandas, numpy, statsmodels, matplotlib, geopandas
 ## Key Variables
 
 The final dataset includes constructed variables such as:
-- Extreme temperature indicators (e.g. 95th percentile thresholds)
+- Extreme temperature indicators (e.g. 95th percentile of maximum temperature) and their interaction with relative humidity (e.g. Tmax95 × RHmean95) to capture combined heat-humidity effects on mortality.
 - Population-based mortality rates
 - Mortality outcomes disaggregated by age group and sex
 
 ## Key Findings
 
-- Higher extreme-temperature exposure was associated with increased mortality rates in Spain
-- Effects varied across age and sex groups
+- The analysis finds that higher extreme temperature exposure is associated with statistically significant increases in mortality rates in Spain, with effects that vary depending on humidity levels, as captured by temperature–humidity interaction terms.
+- Effects are heterogeneous, with stronger impacts observed among older age groups and across sex-specific subgroups.
 
+## Implications
+
+- Results suggest that extreme heat exposure is associated with higher mortality, highlighting the need for preparedness during heat events.
+- Effects are stronger for vulnerable populations, particularly older age groups, suggesting targeted adaptation policies.
+- Humidity may play an additional role in heat-related health risks, suggesting that accounting for humidity should be considered in policy design.
+- Evidence based on local temperature percentiles indicates that relative, location-specific thresholds may be more informative than absolute temperature levels for risk assessment.
+ 
 ## Key Outputs
 
 - Main fixed effects regression results (table)
@@ -70,6 +77,7 @@ Outputs/
 tables/
 - Main_results_table.png
 - Demographic_results_table.png
+- High-risk_subgroup_results_table.png
 
 maps/
 - Weather_stations_coverage_per_province.png
