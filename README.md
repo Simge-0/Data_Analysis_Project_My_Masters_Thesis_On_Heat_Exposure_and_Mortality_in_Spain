@@ -75,8 +75,6 @@ The final dataset includes constructed variables such as:
 
 ## Repository Structure
 
-Project_Master_Thesis/
-
 Data/
 - cleaned_dataset_sample.csv
 
