@@ -28,7 +28,7 @@ The analytical subset used for the main regression analysis covers the 2017–20
 
 ## Tools used
 
-Python, pandas, numpy, statsmodels, matplotlib, geopandas
+Python (pandas, numpy, statsmodels, matplotlib, geopandas)
 
 ## Skills Demonstrated
 
